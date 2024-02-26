@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "sVPCgqOWKwHwCLM89J+kqJE35K4kTkClho0rEvlTAdT5ACk6Q7jOG22PX/2e4R6KqfyATlosvpVYc4K9sb4SgQ==",
+  "success": true,
+  "projectFilePath": "/mnt/c/Users/giova/OneDrive/Desktop/Filmes-Api/FilmesApi.csproj",
+  "expectedPackageFiles": [
+    "/home/giovanni/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/giovanni/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/giovanni/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/home/giovanni/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/home/giovanni/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/home/giovanni/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
