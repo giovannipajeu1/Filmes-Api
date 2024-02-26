@@ -14,7 +14,7 @@ Este Projeto é o Back-End de um Site de Filmes, o Front-End esta no: .
 
 - <img align="left" height="20" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-original.svg"> **Kubernetes**: Orquestração Dos Containers
 
-- <img align="left" height="20" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg"> **.NET**: Framwork Back-End 
+- <img align="left" height="20" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg"> **.NET**: Framework Back-End 
 
 - <img align="left" height="20" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"> **C#**: Linguagem Back-End
 
