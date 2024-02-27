@@ -1,21 +1,17 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace FilmesApi.Models;
+namespace FilmesApi.Data.DTOS;
 
-
-public class Filme 
-{
-    [Key]
-    [Required]
-    public int Id { get; set; }
-
+ public class UpdateFilmeDto 
+ {
+    
     [Required(ErrorMessage = "Nome é Obrigatório")]
-    [MaxLength(50, ErrorMessage = "Nome do Filme Invalido")]
+    [StringLength(50, ErrorMessage = "Nome do Filme Invalido")]
     public string Tittle { get; set; }
 
 
     [Required(ErrorMessage ="Genero é Obrigatorio")]
-    [MaxLength(20, ErrorMessage ="Genero Invalido")]
+    [StringLength(20, ErrorMessage ="Genero Invalido")]
     public string Gender { get; set; }
 
 
@@ -23,4 +19,4 @@ public class Filme
     [Required]
     [Range(50,240, ErrorMessage ="Duração Invalida")]
     public int Duration { get; set; }
-}
+ }

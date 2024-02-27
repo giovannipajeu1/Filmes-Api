@@ -32,3 +32,17 @@
 /mnt/c/Users/giova/OneDrive/Desktop/Filmes-Api/obj/Debug/net6.0/ref/FilmesApi.dll
 /mnt/c/Users/giova/OneDrive/Desktop/Filmes-Api/obj/Debug/net6.0/FilmesApi.pdb
 /mnt/c/Users/giova/OneDrive/Desktop/Filmes-Api/obj/Debug/net6.0/FilmesApi.genruntimeconfig.cache
+/mnt/c/Users/giova/OneDrive/Desktop/Filmes-Api/bin/Debug/net6.0/Humanizer.dll
+/mnt/c/Users/giova/OneDrive/Desktop/Filmes-Api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/mnt/c/Users/giova/OneDrive/Desktop/Filmes-Api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/mnt/c/Users/giova/OneDrive/Desktop/Filmes-Api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/mnt/c/Users/giova/OneDrive/Desktop/Filmes-Api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/mnt/c/Users/giova/OneDrive/Desktop/Filmes-Api/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/mnt/c/Users/giova/OneDrive/Desktop/Filmes-Api/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/mnt/c/Users/giova/OneDrive/Desktop/Filmes-Api/bin/Debug/net6.0/MySqlConnector.dll
+/mnt/c/Users/giova/OneDrive/Desktop/Filmes-Api/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.dll
+/mnt/c/Users/giova/OneDrive/Desktop/Filmes-Api/bin/Debug/net6.0/AutoMapper.dll
+/mnt/c/Users/giova/OneDrive/Desktop/Filmes-Api/bin/Debug/net6.0/Microsoft.AspNetCore.JsonPatch.dll
+/mnt/c/Users/giova/OneDrive/Desktop/Filmes-Api/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/mnt/c/Users/giova/OneDrive/Desktop/Filmes-Api/bin/Debug/net6.0/Newtonsoft.Json.dll
+/mnt/c/Users/giova/OneDrive/Desktop/Filmes-Api/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
