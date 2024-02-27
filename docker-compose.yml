@@ -1,0 +1,36 @@
+version: '3.0'
+
+services:
+  mysql-db:
+    image: mysql:latest
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: "123321"
+      MYSQL_ALLOW_EMPTY_PASSWORD: "0"
+      MYSQL_RANDOM_ROOT_PASSWORD: "0"
+    deploy:
+      restart_policy:
+        condition: on-failure
+
+  api:
+    image: api-filmes/api-filmes:1.0.0
+    ports: 
+      - "5039:5039"
+    build:
+      context: . 
+      dockerfile: dockerfile
+    depends_on: 
+      - mysql-db
+    environment:
+      MYSQL_DATABASE: "filmes"
+      MYSQL_USER: "root"
+      MYSQL_ROOT_PASSWORD: "123321"
+
+volumes:
+  mysql-data:
+
+networks:
+  back-end-network:
