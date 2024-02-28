@@ -4,8 +4,6 @@ WORKDIR /app
 
 COPY . . 
 
+CMD [ "dotnet", "build" ]
+
 ENTRYPOINT [ "dotnet", "run" ]
-
-
-
-

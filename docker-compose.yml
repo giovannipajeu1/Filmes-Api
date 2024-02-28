@@ -28,9 +28,12 @@ services:
       MYSQL_DATABASE: ${MYSQL_DATABASE}
       MYSQL_USER: ${MYSQL_USER}
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+    deploy:
+      restart_policy:
+        condition: on-failure
+
 
 volumes:
   mysql-data:
 
-networks:
-  back-end-network:
+
