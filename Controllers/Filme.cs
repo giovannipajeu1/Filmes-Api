@@ -13,27 +13,21 @@ namespace FilmesApi.Controllers;
  [Route("[controller]")]
 
  public class FilmeController : ControllerBase
- {
-
-    private FilmeContext _context;
-    private IMapper _mapper;
-
-    
+{
+    private readonly FilmeContext _context;
+    private readonly IMapper _mapper;
 
     public FilmeController(FilmeContext context, IMapper mapper)
     {
-        _context = context;
-        _mapper = mapper;
+        _context = context ?? throw new ArgumentNullException(nameof(context));
+        _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
     }
-
-
 
     [HttpPost]
     [ProducesResponseType(StatusCodes.Status201Created)]
     public IActionResult AdicionaFilme(
         [FromBody] CreateFilmeDto filmeDto)
     {
-
         Filme filme = _mapper.Map<Filme>(filmeDto);
         _context.Filmes.Add(filme);
         _context.SaveChanges();
@@ -42,13 +36,18 @@ namespace FilmesApi.Controllers;
             filme);
     }
 
-    [HttpGet]
-    public IEnumerable<ReadFilmeDto> RecuperaFilmes([FromQuery]int skip = 0 , [FromQuery]int take = 10)
+   [HttpGet]
+public IEnumerable<ReadFilmeDto> RecuperaFilmes([FromQuery]int skip = 0, [FromQuery]int take = 10)
+{
+    var filmes = _context.Filmes;
+    if (filmes == null)
     {
-
-        return _mapper.Map<List<ReadFilmeDto>>(_context.Filmes.Skip(skip).Take(take));
-
+        
+        return new List<ReadFilmeDto>();
     }
+
+    return _mapper.Map<List<ReadFilmeDto>>(filmes.Skip(skip).Take(take).ToList());
+}
 
 
     [HttpGet("{id}")]

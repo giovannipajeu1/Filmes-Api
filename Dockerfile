@@ -5,3 +5,7 @@ WORKDIR /app
 COPY . . 
 
 ENTRYPOINT [ "dotnet", "run" ]
+
+
+
+
