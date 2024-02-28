@@ -8,9 +8,9 @@ services:
     volumes:
       - mysql-data:/var/lib/mysql
     environment:
-      MYSQL_ROOT_PASSWORD: "nova_senha"
-      MYSQL_ALLOW_EMPTY_PASSWORD: "0"
-      MYSQL_RANDOM_ROOT_PASSWORD: "0"
+      MYSQL_ROOT_PASSWORD:  ${MYSQL_ROOT_PASSWORD}
+      MYSQL_ALLOW_EMPTY_PASSWORD: ${MYSQL_ALLOW_EMPTY_PASSWORD}
+      MYSQL_RANDOM_ROOT_PASSWORD: ${MYSQL_RANDOM_ROOT_PASSWORD}
     deploy:
       restart_policy:
         condition: on-failure
@@ -25,9 +25,9 @@ services:
     depends_on: 
       - mysql-db
     environment:
-      MYSQL_DATABASE: "filmes"
-      MYSQL_USER: "root"
-      MYSQL_ROOT_PASSWORD: "nova_senha"
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
 
 volumes:
   mysql-data:
