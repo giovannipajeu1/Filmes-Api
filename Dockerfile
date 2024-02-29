@@ -4,6 +4,8 @@ WORKDIR /app
 
 COPY . . 
 
+EXPOSE 5039
+
 CMD [ "dotnet", "build" ]
 
 ENTRYPOINT [ "dotnet", "run" ]
