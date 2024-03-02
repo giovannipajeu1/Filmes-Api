@@ -6,7 +6,9 @@ Este Projeto é o Back-End de um Site de Filmes, o Front-End esta no: .
 
 - <img align="left" height="20" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/githubactions/githubactions-original.svg"> **Actions**: Criação das Pipelines de CI
 
-- <img align="left" height="20" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/argocd/argocd-original.svg"> **Argo**: Pipeline de CD 
+- <img align="left" height="20" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/argocd/argocd-original.svg"> **Argo**: Pipeline de CD
+
+-  <img align="left" height="20" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/digitalocean/digitalocean-original.svg"> **Digital Oceand** Cloud Provider
 
 - <img align="left" height="20" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg"> **Terraform**: Criação das Máquinas Virtuais
 
