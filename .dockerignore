@@ -1,1 +1,5 @@
-Migrations/
+Migrations
+Kubernetes
+Terraform
+.github
+.gitignore

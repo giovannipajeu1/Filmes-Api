@@ -3,6 +3,8 @@ version: '3.0'
 services:
   mysql-db:
     image: mysql:latest
+    networks:
+      - back-end
     ports:
       - "3306:3306"
     volumes:
@@ -15,8 +17,12 @@ services:
       restart_policy:
         condition: on-failure
 
+
+
   api:
     image: api-filmes/api-filmes:1.0.0
+    networks:
+     - back-end
     ports: 
       - "5039:5039"
     build:
@@ -31,9 +37,14 @@ services:
     deploy:
       restart_policy:
         condition: on-failure
+   
+     
 
 
 volumes:
   mysql-data:
+
+networks:
+  back-end:
 
 
