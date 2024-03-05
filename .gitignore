@@ -3,5 +3,5 @@
 .github
 Migrations
 /Terraform/terraform.tfstate.backup
-/Terraform/terraform.tfstate.
+/Terraform/terraform.tfstate
 /Terraform/.terraform.lock.hcl
