@@ -2,3 +2,5 @@
 /Terraform/terraform.tfvars
 .github
 Migrations
+/Terraform/terraform.tfstate.backup
+/Terraform/terraform.tfstate.
