@@ -1,1 +1,4 @@
 .env
+/Terraform/terraform.tfvars
+.github
+Migrations
